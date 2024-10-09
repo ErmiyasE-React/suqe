@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.btn, .btn2 {
+    margin: 10px;
+    width: 400px;  /* Set a fixed width */
+    height: 60px;  /* Set a fixed height */
+    box-shadow: none;
+    border-color: #ffff;
+    border-radius: 20px;
+    color: aliceblue;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex; /* Flex to center content */
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+}
+
+.btn {
+    background-color: #51504b;
+}
+
+.btn2 {
+    background-color: #0d75aa;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #ccc; /* Line color */
+    margin: 0 10px; /* Space around the line */
+}
+
+.text {
+    font-size: 18px;
+    color: #51504b; /* Text color */
+}
+
+.title {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.cardbtn{
+    display: grid;
+    align-items: center;
+}
