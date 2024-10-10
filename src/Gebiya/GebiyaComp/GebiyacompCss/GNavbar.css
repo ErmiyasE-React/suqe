@@ -1,0 +1,23 @@
+.NavMain{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 10px;
+    margin: 10px;
+}
+.Title{
+  display: flex;
+  flex: 1fr;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
+  padding-left: 15px;
+}
+.Icon{
+    flex: 1fr;
+    padding-right: 5px;
+    margin:10px ;
+}
+h2{
+  margin-top: 20px;
+}

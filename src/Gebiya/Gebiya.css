@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .gebiya-container {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the container takes the full height */
+  }
+  
+  .content {
+    flex: 1; /* Allows the content area to grow and fill available space */
+    overflow-y: auto; /* Enables vertical scrolling if content overflows */
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #f5f5f5; /* Adjust color as needed */
+    padding: 10px 0; /* Adjust padding as needed */
+  }
+  
