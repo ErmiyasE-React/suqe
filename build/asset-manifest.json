@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.7bf0aa7b.css",
-    "main.js": "/static/js/main.7b50059b.js",
+    "main.css": "/static/css/main.c00a1561.css",
+    "main.js": "/static/js/main.15f597eb.js",
     "static/js/453.4aaaf1bb.chunk.js": "/static/js/453.4aaaf1bb.chunk.js",
     "static/media/shopr.png": "/static/media/shopr.53b611d5a8e40b80743b.png",
+    "static/media/suqelogo.png": "/static/media/suqelogo.d5c7382d111a5fc4012a.png",
+    "static/media/Inbox Empty.png": "/static/media/Inbox Empty.8f37eba2bf2983b23cfc.png",
     "index.html": "/index.html",
-    "main.7bf0aa7b.css.map": "/static/css/main.7bf0aa7b.css.map",
-    "main.7b50059b.js.map": "/static/js/main.7b50059b.js.map",
+    "main.c00a1561.css.map": "/static/css/main.c00a1561.css.map",
+    "main.15f597eb.js.map": "/static/js/main.15f597eb.js.map",
     "453.4aaaf1bb.chunk.js.map": "/static/js/453.4aaaf1bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bf0aa7b.css",
-    "static/js/main.7b50059b.js"
+    "static/css/main.c00a1561.css",
+    "static/js/main.15f597eb.js"
   ]
 }
