@@ -1,5 +1,5 @@
 import React from "react";
-import './GebiyacompCss/GNavbar.css';
+import './SuqecomCss/SNavbar.css';
 import Paper from '@mui/material/Paper';
 import InputBase from '@mui/material/InputBase';
 import IconButton from '@mui/material/IconButton';
@@ -22,7 +22,7 @@ import Button from '@mui/material/Button';
 import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
-function GNavbar() {
+function SNavbar() {
 
   return (
     <>
@@ -30,7 +30,7 @@ function GNavbar() {
         <div className="Title">
           <TemporaryDrawer/>
         
-          <h2> Gebiya ገቢያ </h2>
+          <h2> Suqe / ሱቄ</h2>
         </div>
        <div className="Icon">
        <img src={logo} alt="Logo" style={{maxWidth:"90px"}}/>
@@ -49,7 +49,7 @@ function GNavbar() {
   );
 
 }
-export default GNavbar
+export default SNavbar
 
 
 

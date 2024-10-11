@@ -8,12 +8,15 @@ function LoginCard() {
   const legza = () => {
     navigate('/Gebiya'); // Adjust the path according to your route setup
   };
+  const leshit = () => {
+    navigate('/Suqe'); // Adjust the path according to your route setup
+  };
     return (
         <Paper elevation={0} className="login-card"> {/* Added className for styling */}
         <h2 className="title">Let's Start</h2>
         <div className="cardbtn">
             <div >
-              <button className="btn" >ልሽጥ / Sell</button>
+              <button className="btn" onClick={leshit}  >ልሽጥ / Sell</button>
             </div>
             <div className="separator">
                 <div className="line"></div>

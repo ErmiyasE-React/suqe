@@ -7,6 +7,9 @@ import Gebiya from './Gebiya/Gebiya';
 import GBody from './Gebiya/GebiyaComp/GBody';
 import Profile from './Gebiya/GebiyaPage/Profile';
 import Favorites from './Gebiya/GebiyaPage/Favorites';
+import Suqe from './Suqe/Suqe';
+import SBody from './Suqe/SuqeCom/SBody';
+import OpenSuqe from './Suqe/SuqePage/yeneSuqe/OpenSuqe';
 
 function App() {
   return (
@@ -19,8 +22,11 @@ function App() {
           <Route path="" element ={<GBody />} />  {/* Default content for Admin */}
           <Route path="Favorites" element={<Favorites />} /> {/* This will render Teacher inside Admin_main's Outlet */}
           <Route path="Profile" element={<Profile />} />
-         
-        
+        </Route>
+        <Route path="/Suqe" element={<Suqe />}>
+          <Route path="" element ={<SBody />} />  {/* Default content for Admin */}
+          <Route path="Favorites" element={<Favorites />} /> {/* This will render Teacher inside Admin_main's Outlet */}
+          <Route path="OpenSuqe" element={<OpenSuqe />} />
         </Route>
       </Routes>
     </div>

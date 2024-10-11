@@ -1,12 +1,11 @@
 import React from 'react';
-import GNavbar from './GebiyaComp/GNavbar';
 import { Outlet } from "react-router-dom";
+import SNavbar from './SuqeCom/SNavbar';
 
-
-function Gebiya() {
+function  Suqe() {
   return (
     <div style={{position:'absolute', display: 'flex', flexDirection: 'column', minHeight: '100vh' }} className="gebiya-container">
-      <GNavbar />
+      <SNavbar />
       <div style={{ flex: 1, overflowY: 'auto', padding: '20px' }} className="content">
         <Outlet />
       </div>
@@ -15,4 +14,4 @@ function Gebiya() {
   );
 }
 
-export default Gebiya;
+export default Suqe;

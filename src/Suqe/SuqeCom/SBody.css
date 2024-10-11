@@ -1,0 +1,28 @@
+.btncon{
+  margin: 0px;
+  padding:0px;
+}
+.btn2 {
+    margin: 10px;
+    margin-left: 10px;
+    width: 350px;  /* Set a fixed width */
+    height: 60px;  /* Set a fixed height */
+    box-shadow: none;
+    border-color: #ffff;
+    border-radius: 20px;
+    color: aliceblue;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex; /* Flex to center content */
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+}
+
+
+
+.btn2 {
+    background-color: #0d75aa;
+    position: absolute;
+    top: 0;
+}
